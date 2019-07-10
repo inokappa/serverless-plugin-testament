@@ -14,7 +14,7 @@ class ServerlessPlugin {
 
   afterDeployTestament() {
     this.serverless.cli.log(this.serverless.service.custom.testament.message);
-    opener(this.serverless.service.custom.testament.url);
+    // opener(this.serverless.service.custom.testament.url);
   }
 }
 
